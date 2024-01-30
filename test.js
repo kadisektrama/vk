@@ -7,7 +7,7 @@ function sendMessage(message) {
     return [message];
   }
 
-  let messageWords = message.split(" ");
+  let messageWords = message.split(" "); // optimize with list
 
   while (messageWords.length) {
     let word = messageWords.shift(); //queue
